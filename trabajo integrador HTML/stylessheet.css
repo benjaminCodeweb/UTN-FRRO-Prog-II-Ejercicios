@@ -1,0 +1,93 @@
+
+input {
+    color: black;
+
+}
+textarea {
+    color:  black;
+}
+button {
+    color: black;
+    width: 180px;
+}
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body, html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    
+}
+
+
+header {
+    font-weight: 400;
+    padding: 20px;
+} 
+h1 {
+    position: relative;
+    z-index: 3;
+}
+
+
+
+p {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+
+#tabla {
+    margin-left: 39%;
+   font-size: xx-small;
+   position: relative;
+   z-index: 3;
+   
+   
+
+}
+form {
+    margin-left: 40%;
+    position: relative;
+    z-index: 3;
+}
+
+
+#clase {
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+#lista {
+    border: 1px solid whitesmoke;
+    width: 200px;
+    position: relative;
+    z-index: 3;
+}
+
+#foto {
+   height: 200px;
+   position: relative;
+   z-index: 3;
+}
+
+#videolop {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    object-fit:  cover;
+    z-index: 2;
+    opacity: 0.3;
+
+
+}
+
